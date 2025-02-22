@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.emoji {
+    position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+    transition: top 0.3s linear;
+}
+
+#score {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#timer {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#start-btn {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
